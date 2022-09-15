@@ -77,7 +77,6 @@ Discharge()
 
 
 # test if image is on screen
-
 import pyautogui
 
 if pyautogui.locateOnScreen("EpisodeEdit.png", grayscale=True, confidence=0.5) != None:
