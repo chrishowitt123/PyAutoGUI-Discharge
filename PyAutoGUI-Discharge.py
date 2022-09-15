@@ -71,8 +71,8 @@ def Discharge():
     pyautogui.press('tab')
     pyautogui.press('tab')
  
-Enter_Record("310781")
-Enter_Episode("O0000588088")
+Enter_Record("12345")
+Enter_Episode("123456789")
 Discharge()
 
 
