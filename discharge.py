@@ -6,9 +6,12 @@ import time
 import os
 import cv2
 import pandas as pd
-
-
 os.chdir(r"C:\Users\CHowitt01\OneDrive - States of Guernsey\Desktop\test")
+
+"""
+A program that uses screen shots and mouse/keyboard commands to automate a GUI (protected HTML).
+
+"""
 
 def Click_Button(path):
     buttonlocation  = pyautogui.locateOnScreen(path)
@@ -69,12 +72,8 @@ def Discharge():
     pyautogui.press('tab')
  
 Enter_Record("310781")
-
 Enter_Episode("O0000588088")
-
 Discharge()
-
-
 
 
 # test if image is on screen
@@ -82,4 +81,4 @@ Discharge()
 import pyautogui
 
 if pyautogui.locateOnScreen("EpisodeEdit.png", grayscale=True, confidence=0.5) != None:
-    print("I see")
+    print("Image detected!")
