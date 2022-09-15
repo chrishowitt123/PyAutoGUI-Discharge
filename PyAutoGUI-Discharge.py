@@ -9,7 +9,7 @@ import pandas as pd
 os.chdir(r"C:\Users\CHowitt01\OneDrive - States of Guernsey\Desktop\test")
 
 """
-A program that uses screen shots and mouse/keyboard commands to automate a GUI (protected HTML).
+A program that uses screen shots and mouse/keyboard commands to automate a GUI (protected HTML/Selenium alternitive).
 
 """
 
